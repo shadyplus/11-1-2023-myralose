@@ -11,6 +11,37 @@ body {
     flex-direction: column
 }
 
+.pssr{
+    position: absolute;
+    font-size: 21px;
+    left: 1%;
+    bottom: 61%;
+    background: #f09c48;
+    border: solid 3px #f36e45;
+    padding: 7px;
+    border-radius: 10px;
+    bottom: 46%;
+
+}
+.prodss{
+    display: none;
+}
+@media(max-width: 1246px) {
+    .pssr {
+position: relative;}
+#producttt {
+    display: none;}
+    .prodss{
+        display: block;
+        margin: auto;
+    height: 234px
+    }
+}
+#producttt{
+    position: absolute;
+    right: -15%;
+    top: 24%;
+}
 body.js-popup {
     overflow-y: hidden
 }
@@ -712,6 +743,7 @@ input[value="ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð±ÐµÑÐ¿Ð»Ð°Ñ‚Ð�
     border: 3px solid red;
     padding: 20px 10px;
     text-align: center;
+    position: relative;
     box-sizing: border-box
 }
 
@@ -1762,9 +1794,9 @@ input[value="ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð±ÐµÑÐ¿Ð»Ð°Ñ‚Ð�
 
 .spin {
     width: 336px;
-    height: 83px;
+    height: 76px;
     background: linear-gradient(90deg, #F46B45 0%, #EEA849 100%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
     border-radius: 8px;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -1772,9 +1804,9 @@ input[value="ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð±ÐµÑÐ¿Ð»Ð°Ñ‚Ð�
     font-size: 22px;
     line-height: 26px;
     border: none;
-    margin-top: 35px;
+    margin-top: 10px;
     cursor: pointer;
-    transition: all .3s ease
+    transition: all .3s ease;
 }
 
 .spin:hover {
